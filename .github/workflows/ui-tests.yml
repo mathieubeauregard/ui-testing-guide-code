@@ -4,7 +4,7 @@ name: 'UI Tests'
 on: push
 
 jobs:
-  # Install and cache npm dependencies
+  # Install & cache npm dependencies
   install-cache:
     runs-on: ubuntu-latest
     steps:
